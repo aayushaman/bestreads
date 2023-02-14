@@ -1,4 +1,4 @@
-# bestreads
+# bestReads
 ## Book Recommendation Web Application
 
 ## Introduction
