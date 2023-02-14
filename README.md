@@ -2,7 +2,7 @@
 ## Book Recommendation Web Application
 
 ## Introduction
-Welcome to our book recommendation web application! Our goal is to help you discover new and interesting books to read, based on your personal preferences. Whether you're in the mood for a mystery novel, a non-fiction book, or a classic, we've got you covered.
+Welcome to my project of book recommendation !!! The goal of this project is to help the users discover new and interesting books to read, based on their personal preferences. Whether you're in the mood for a mystery novel, a non-fiction book, or a classic, this application has got you covered.
 
 ## How to Use
 To start, simply provide us with a few details about the type of books you like. Our recommendation engine will use this information to suggest books that are right up your alley.
