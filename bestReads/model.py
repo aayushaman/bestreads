@@ -35,6 +35,8 @@ valid_users = ratings_with_name.groupby('User-ID').count()['Book-Rating'] >= 200
 
 literate_users = valid_users[valid_users].index
 
+
+
 #Filtered ratings based on Users who have rated atleast 200 books
 filtered_ratings = ratings_with_name[ratings_with_name['User-ID'].isin(literate_users)]
 
