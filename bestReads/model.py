@@ -22,7 +22,7 @@ avg_ratings_df.rename(columns={'Book-Rating':'Average Ratings'}, inplace=True)
 
 popularity_df = num_ratings_df.merge(avg_ratings_df, on='Book-Title')
 
-popular_df = popularity_df[popularity_df['Ratings'] >= 250].sort_values('Average Ratings', ascending=False).head(100)
+popular_df = popularity_df[popularity_df['Ratings'] >= 250].sort_values('Average Ratings', ascending=False).head(50)
 
 popular_books = popular_df.merge(books, on='Book-Title').drop_duplicates('Book-Title')[['Book-Title', 'Book-Author', 'Year-Of-Publication', 'Publisher', 'Ratings', 'Average Ratings', 'Image-URL-M']]
 
